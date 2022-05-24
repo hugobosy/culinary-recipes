@@ -1,0 +1,25 @@
+.form-search {
+    display: flex;
+}
+.search-btn {
+    display: inline-flex;
+    align-items: center;
+    font-size: 22px;
+    padding: 10px 30px;
+    border: none;
+    background-color: #e10101;
+    color: white;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+box-icon {
+    filter: invert(1);
+    margin-right: 5px;
+}
+
+.input-search {
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-right: 0;
+}
