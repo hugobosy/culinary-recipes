@@ -1,0 +1,13 @@
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icons span {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.icons span:hover:not(span:last-child) {
+    transform: rotateY(360deg);
+}
