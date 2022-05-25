@@ -13,7 +13,7 @@
     border-bottom-right-radius: 8px;
 }
 
-box-icon {
+box-icon[name="search"] {
     filter: invert(1);
     margin-right: 5px;
 }
